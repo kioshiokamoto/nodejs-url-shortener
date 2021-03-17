@@ -1,6 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
-dotenv.config({ path: './config.env' });
+dotenv.config();
 
 import connectDB from './config/db.js';
 import shortUrl from './routes/shortUrl.js'
