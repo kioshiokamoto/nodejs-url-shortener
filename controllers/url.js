@@ -5,7 +5,7 @@ import Url from "../models/Url.js";
 
 export const shortenerUrl = async  (req,res)=>{
     const longUrl = req.body.longUrl;
-    const baseUrl = "http://localhost:5000/app"
+    const baseUrl = process.env.URL_DEPLOY;
 
     if(!validUrl.isUri(baseUrl)){
         return res.status(401).json("Error interno. Por favor regresa más tarde.");
