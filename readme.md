@@ -3,6 +3,8 @@
 - Api sencilla desarrollada en Nodejs(Express) con los módulos: dotenv, mongoose, shortid y valid-url.
 - Base de datos: MongoDB
 
+## URL (POST): https://acortalo-pe.herokuapp.com/app
+
 ![Demo aplicativo](preview.JPG)
 
 Para instalar aplicación ejecutar:
